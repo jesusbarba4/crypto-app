@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default async function CoinPage({params,}: {params: Promise<{ coinId: string}>} ) {
   const coinId = (await params).coinId
   return (
