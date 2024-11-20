@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import Link from "next/link";
 
 export default async function CoinPage({params,}: {params: Promise<{ coinId: string}>} ) {
